@@ -22,4 +22,12 @@ genres: ["Action, Adventure, Drama", "Comedy, Romance", "Drama, Mystery, Thrille
 console.log("The first movie's lead director is: "+favMovies.directors[0]);
 console.log("The second movie's lead writer is: "+favMovies.writers[1]);
 console.log( "The third movie's lead star is: "+favMovies.stars[2]);
-console.log("The fourth movie's main genre is: "+favMovies.generes[3]);
+console.log("The fourth movie's main genre is: "+favMovies.genres[3]);
+
+//Calculate the average rating of the movies
+let  averageRating=(favMovies.rating[0]+favMovies.rating[1]+favMovies.rating[2]+favMovies.rating[3])/4;
+console.log(averageRating);
+
+//Calculate the average age of the movies
+let averageAge=[(2022-favMovies.year[0])+(2022-favMovies.year[1])+(2022-favMovies.year[2])+(2022-favMovies.year[3])]/4;
+console.log(averageAge);
