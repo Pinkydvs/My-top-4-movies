@@ -1,0 +1,1 @@
+Choose your four favorite movies, and collect the following information about them: title, year of their release, IMDB rating, short description. Create a favMovies variable as an array of four objects (representing the movies), and add the above details to the objects using these keys: title, year, rating, description.
