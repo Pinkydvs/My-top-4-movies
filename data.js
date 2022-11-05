@@ -19,4 +19,7 @@ directors: ["David Benioff", "Danny DeVito", "David Fincher", "Duncan Jones"], w
 stars: ["Peter Dinklage, Lena Headey, Emilia Clarke, Kit Harington", "	Michael Douglas, Kathleen Turner, Danny DeVito", "Michael Douglas, Sean Penn, Deborah Kara Unger", "Travis Fimmel, Paula Patton, Ben Foster"], 
 genres: ["Action, Adventure, Drama", "Comedy, Romance", "Drama, Mystery, Thriller", "Action, Adventure,Fantasy"]};
 
-console.log
+console.log("The first movie's lead director is: "+favMovies.directors[0]);
+console.log("The second movie's lead writer is: "+favMovies.writers[1]);
+console.log( "The third movie's lead star is: "+favMovies.stars[2]);
+console.log("The fourth movie's main genre is: "+favMovies.generes[3]);
